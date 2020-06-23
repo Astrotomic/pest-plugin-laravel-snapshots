@@ -1,4 +1,4 @@
-# PHP Open-Graph
+# Pest Laravel Snapshot Assertions
 
 [![Latest Version](http://img.shields.io/packagist/v/astrotomic/pest-plugin-laravel-snapshots.svg?label=Release&style=for-the-badge)](https://packagist.org/packages/astrotomic/pest-plugin-laravel-snapshots)
 [![MIT License](https://img.shields.io/github/license/Astrotomic/pest-plugin-laravel-snapshots.svg?label=License&color=blue&style=for-the-badge)](https://github.com/Astrotomic/pest-plugin-laravel-snapshots/blob/master/LICENSE)
