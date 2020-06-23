@@ -1,0 +1,1 @@
+# pest-plugin-laravel-snapshots
