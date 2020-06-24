@@ -11,7 +11,6 @@
 This package adds snapshot testing capabilities to Laravel HTTP test with **[Pest](https://pestphp.com)**.
 It uses the [phpunit-snapshot-assertions](https://github.com/spatie/phpunit-snapshot-assertions) package making
 snapshot assertions available in Pest HTTP tests.
-**[Pest](https://pestphp.com)** is an elegant PHP Testing Framework with a focus on simplicity.
 
 ## Installation
 
