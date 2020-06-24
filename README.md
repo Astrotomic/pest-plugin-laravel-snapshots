@@ -8,7 +8,7 @@
 [![StyleCI](https://styleci.io/repos/274524196/shield)](https://styleci.io/repos/274524196)
 [![Total Downloads](https://img.shields.io/packagist/dt/astrotomic/pest-plugin-laravel-snapshots.svg?label=Downloads&style=flat-square)](https://packagist.org/packages/astrotomic/pest-plugin-laravel-snapshots)
 
-This package adds snapshot testing capabilities to Laravel HTTP test with **[Pest](https://pestphp.com)**. 
+This package adds snapshot testing capabilities to Laravel HTTP test with **[Pest](https://pestphp.com)**.
 It uses the [phpunit-snapshot-assertions](https://github.com/spatie/phpunit-snapshot-assertions) package making
 snapshot assertions available in Pest HTTP tests.
 **[Pest](https://pestphp.com)** is an elegant PHP Testing Framework with a focus on simplicity.
