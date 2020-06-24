@@ -2,9 +2,9 @@
 
 namespace Astrotomic\Snapshots\Laravel;
 
+use Astrotomic\Snapshots\Laravel\Mixins\TestResponseMixin;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Testing\TestResponse;
-use TestResponseMixin;
 
 class SnapshotsServiceProvider extends ServiceProvider
 {

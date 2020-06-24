@@ -1,5 +1,8 @@
 <?php
 
+namespace Astrotomic\Snapshots\Laravel\Mixins;
+
+use Closure;
 use Illuminate\Testing\TestResponse;
 use function Spatie\Snapshots\assertMatchesHtmlSnapshot;
 use function Spatie\Snapshots\assertMatchesJsonSnapshot;
