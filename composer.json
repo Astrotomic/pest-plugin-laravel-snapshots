@@ -1,7 +1,14 @@
 {
     "name": "astrotomic/pest-plugin-laravel-snapshots",
-    "description": "",
-    "keywords": [],
+    "description": "This package adds snapshot testing capabilities to Laravel HTTP test with Pest.",
+    "keywords": [
+        "pest",
+        "test",
+        "testing",
+        "snapshot",
+        "http",
+        "laravel"
+    ],
     "homepage": "https://github.com/Astrotomic/pest-plugin-laravel-snapshots",
     "license": "MIT",
     "authors": [
@@ -14,15 +21,32 @@
     ],
     "require": {
         "php": "^7.4",
-        "pestphp/pest": "^0.2",
-        "spatie/pest-plugin-snapshots": "^0.1.0"
+        "illuminate/support": "^7.0",
+        "illuminate/testing": "^7.0",
+        "pestphp/pest": "dev-master",
+        "spatie/pest-plugin-snapshots": "^0.2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0"
     },
     "config": {
         "sort-packages": true
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Astrotomic\\Snapshots\\Laravel\\SnapshotsServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Astrotomic\\Snapshots\\Laravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Astrotomic\\Snapshots\\Laravel\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
