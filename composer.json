@@ -1,6 +1,6 @@
 {
     "name": "astrotomic/pest-plugin-laravel-snapshots",
-    "description": "This package adds snapshot testing capabilities to Laravel HTTP test with Pest.",
+    "description": "This package adds snapshot testing capabilities to Laravel HTTP tests with Pest.",
     "keywords": [
         "pest",
         "test",
