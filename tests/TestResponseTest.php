@@ -8,7 +8,7 @@ uses(TestCase::class);
 
 beforeEach(function () {
     Route::get('html', function () {
-        return trim(<<<HTML
+        return trim(<<<'HTML'
             <!DOCTYPE html>
             <html lang="en"><head><title>title</title></head><body><h1>first headline</h1></body></html>
         HTML);
@@ -20,7 +20,7 @@ beforeEach(function () {
         ];
     });
     Route::get('xml', function () {
-        return trim(<<<XML
+        return trim(<<<'XML'
             <?xml version="1.0" encoding="utf-8"?>
             <list>
             <item>item #1</item>

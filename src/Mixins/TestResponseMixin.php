@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Testing\TestResponse;
-use Spatie\Snapshots\Driver;
 use function Spatie\Snapshots\assertMatchesHtmlSnapshot;
 use function Spatie\Snapshots\assertMatchesJsonSnapshot;
 use function Spatie\Snapshots\assertMatchesSnapshot;
 use function Spatie\Snapshots\assertMatchesTextSnapshot;
 use function Spatie\Snapshots\assertMatchesXmlSnapshot;
+use Spatie\Snapshots\Driver;
 
 /** @mixin TestResponse */
 final class TestResponseMixin
