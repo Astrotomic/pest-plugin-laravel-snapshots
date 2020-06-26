@@ -17,7 +17,7 @@ snapshot assertions available in Pest HTTP tests.
 You can install the package via composer:
 
 ```bash
-composer require astrotomic/pest-plugin-laravel-snapshots
+composer require astrotomic/pest-plugin-laravel-snapshots --dev
 ```
 
 ## Usage
