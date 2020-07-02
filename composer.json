@@ -23,7 +23,7 @@
         "php": "^7.4",
         "illuminate/support": "^7.0",
         "illuminate/testing": "^7.0",
-        "pestphp/pest": "dev-master",
+        "pestphp/pest": "^0.2.3",
         "spatie/pest-plugin-snapshots": "^0.2.0"
     },
     "require-dev": {
