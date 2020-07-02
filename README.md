@@ -22,7 +22,7 @@ composer require astrotomic/pest-plugin-laravel-snapshots --dev
 
 ## Usage
 
-At first you should use `[orchestra/testbench](https://github.com/orchestral/testbench)` which adds the HTTP helper methods that return a `\Illuminate\Testing\TestResponse` instance.
+At first you should use [orchestra/testbench](https://github.com/orchestral/testbench) which adds the HTTP helper methods that return a `\Illuminate\Testing\TestResponse` instance.
 
 ```php
 use Orchestra\Testbench\TestCase;
